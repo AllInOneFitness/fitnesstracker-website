@@ -8,6 +8,7 @@ import {
   DevicePhoneMobileIcon,
   ClockIcon 
 } from '@heroicons/react/24/outline';
+import Logo from './components/Logo';
 
 export default function Home() {
   return (
@@ -16,10 +17,10 @@ export default function Home() {
       <nav className="fixed top-0 w-full bg-slate-950/80 backdrop-blur-md border-b border-slate-800 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg"></div>
+            <Link href="/" className="flex items-center space-x-2">
+              <Logo className="w-8 h-8" />
               <span className="text-xl font-bold text-white">StrengthLens</span>
-            </div>
+            </Link>
             <div className="hidden md:flex space-x-8">
               <Link href="#features" className="text-slate-300 hover:text-white transition">Features</Link>
               <Link href="#science" className="text-slate-300 hover:text-white transition">Science</Link>
@@ -550,10 +551,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg"></div>
+              <Link href="/" className="flex items-center space-x-2 mb-4 inline-flex">
+                <Logo className="w-8 h-8" />
                 <span className="text-lg font-bold text-white">StrengthLens</span>
-              </div>
+              </Link>
               <p className="text-slate-400 text-sm">
                 Science-backed strength training intelligence
               </p>
