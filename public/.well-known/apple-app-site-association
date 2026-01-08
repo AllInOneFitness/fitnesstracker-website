@@ -1,0 +1,20 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TEAM_ID.com.yourcompany.fitnesstracker",
+        "paths": [
+          "/reset-password/*",
+          "/verify-email/*",
+          "/open/*"
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "TEAM_ID.com.yourcompany.fitnesstracker"
+    ]
+  }
+}
