@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.yourcompany.fitnesstracker",
+      "package_name": "com.allinonefitness.fitnesstracker",
       "sha256_cert_fingerprints": [
         "YOUR_APP_SHA256_FINGERPRINT_HERE"
       ]
