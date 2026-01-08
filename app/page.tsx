@@ -18,7 +18,7 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg"></div>
-              <span className="text-xl font-bold text-white">FitnessTracker</span>
+              <span className="text-xl font-bold text-white">StrengthLens</span>
             </div>
             <div className="hidden md:flex space-x-8">
               <Link href="#features" className="text-slate-300 hover:text-white transition">Features</Link>
@@ -44,16 +44,16 @@ export default function Home() {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Transform Your Fitness
+            A New Lens on
             <br />
             <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-              With Science & AI
+              Strength Training
             </span>
           </h1>
           
           <p className="text-xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed">
-            The world's most intelligent fitness platform. Track workouts, analyze progress, 
-            and get AI-powered recommendations that adapt to your unique journey.
+            Science-backed strength training intelligence. Track workouts, analyze progress, 
+            and get AI-powered insights that adapt to your unique training journey.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -531,7 +531,7 @@ export default function Home() {
               Ready to Transform Your Training?
             </h2>
             <p className="text-xl text-slate-400 mb-8">
-              Join thousands of athletes using FitnessTracker to reach their goals faster
+              Join thousands of athletes using StrengthLens to reach their goals faster
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl hover:from-blue-700 hover:to-purple-700 transition shadow-lg shadow-blue-500/25">
@@ -552,10 +552,10 @@ export default function Home() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg"></div>
-                <span className="text-lg font-bold text-white">FitnessTracker</span>
+                <span className="text-lg font-bold text-white">StrengthLens</span>
               </div>
               <p className="text-slate-400 text-sm">
-                AI-powered fitness intelligence for serious athletes
+                Science-backed strength training intelligence
               </p>
             </div>
             <div>
@@ -582,7 +582,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-slate-800 pt-8 text-center text-slate-400 text-sm">
-            <p>© 2026 FitnessTracker. All rights reserved.</p>
+            <p>© 2026 StrengthLens. All rights reserved.</p>
           </div>
         </div>
       </footer>
