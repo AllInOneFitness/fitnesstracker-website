@@ -1,3 +1,4 @@
+import Logo from '../components/Logo';
 import Link from 'next/link';
 
 export default function TermsOfUse() {
@@ -8,8 +9,8 @@ export default function TermsOfUse() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg"></div>
-              <span className="text-xl font-bold text-white">FitnessTracker</span>
+              <Logo className="w-8 h-8" />
+              <span className="text-xl font-bold text-white">StrengthLens</span>
             </Link>
             <div className="hidden md:flex space-x-8">
               <Link href="/#features" className="text-slate-300 hover:text-white transition">Features</Link>
@@ -34,7 +35,7 @@ export default function TermsOfUse() {
             <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-8 mb-8">
               <h2 className="text-2xl font-bold text-white mb-4">Agreement to Terms</h2>
               <p className="text-slate-300 leading-relaxed">
-                By accessing or using the FitnessTracker mobile application and services, you agree to be bound 
+                By accessing or using the StrengthLens mobile application and services, you agree to be bound 
                 by these Terms of Use. If you do not agree to these terms, please do not use our services.
               </p>
             </div>
@@ -43,7 +44,7 @@ export default function TermsOfUse() {
               <h2 className="text-3xl font-bold text-white mb-6">1. Acceptance of Terms</h2>
               <div className="bg-slate-800/30 border border-slate-700 rounded-xl p-6">
                 <p className="text-slate-300 mb-4">
-                  These Terms of Use constitute a legally binding agreement between you and FitnessTracker. 
+                  These Terms of Use constitute a legally binding agreement between you and StrengthLens. 
                   By creating an account or using our services, you acknowledge that you have read, understood, 
                   and agree to be bound by these terms.
                 </p>
@@ -60,7 +61,7 @@ export default function TermsOfUse() {
                 <ul className="space-y-3 text-slate-300">
                   <li className="flex items-start">
                     <span className="text-blue-400 mr-2">•</span>
-                    <span>You must be at least 13 years old to use FitnessTracker</span>
+                    <span>You must be at least 13 years old to use StrengthLens</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-400 mr-2">•</span>
@@ -144,7 +145,7 @@ export default function TermsOfUse() {
               <h2 className="text-3xl font-bold text-white mb-6">5. Medical Disclaimer</h2>
               <div className="bg-gradient-to-br from-yellow-500/10 to-orange-500/10 border border-yellow-500/20 rounded-xl p-6">
                 <p className="text-slate-300 mb-4 font-semibold">
-                  ⚠️ IMPORTANT: FitnessTracker is NOT a medical device or medical advice service.
+                  ⚠️ IMPORTANT: StrengthLens is NOT a medical device or medical advice service.
                 </p>
                 <ul className="space-y-2 text-slate-300">
                   <li className="flex items-start">
@@ -175,7 +176,7 @@ export default function TermsOfUse() {
               <h2 className="text-3xl font-bold text-white mb-6">6. Intellectual Property</h2>
               <div className="bg-slate-800/30 border border-slate-700 rounded-xl p-6">
                 <p className="text-slate-300 mb-4">
-                  All content, features, and functionality of FitnessTracker, including but not limited to:
+                  All content, features, and functionality of StrengthLens, including but not limited to:
                 </p>
                 <ul className="space-y-2 text-slate-300 mb-4">
                   <li className="flex items-start">
@@ -196,7 +197,7 @@ export default function TermsOfUse() {
                   </li>
                 </ul>
                 <p className="text-slate-300">
-                  are owned by FitnessTracker and protected by copyright, trademark, and other intellectual 
+                  are owned by StrengthLens and protected by copyright, trademark, and other intellectual 
                   property laws. You may not copy, modify, distribute, or create derivative works without 
                   our express written permission.
                 </p>
@@ -292,7 +293,7 @@ export default function TermsOfUse() {
               <div className="bg-slate-800/30 border border-slate-700 rounded-xl p-6 mb-4">
                 <h3 className="text-xl font-semibold text-white mb-3">Service Provided "AS IS"</h3>
                 <p className="text-slate-300 mb-4">
-                  FitnessTracker is provided "as is" without warranties of any kind, express or implied. 
+                  StrengthLens is provided "as is" without warranties of any kind, express or implied. 
                   We do not guarantee:
                 </p>
                 <ul className="space-y-2 text-slate-300">
@@ -317,7 +318,7 @@ export default function TermsOfUse() {
               <div className="bg-slate-800/30 border border-slate-700 rounded-xl p-6">
                 <h3 className="text-xl font-semibold text-white mb-3">Limitation of Liability</h3>
                 <p className="text-slate-300">
-                  To the maximum extent permitted by law, FitnessTracker shall not be liable for any indirect, 
+                  To the maximum extent permitted by law, StrengthLens shall not be liable for any indirect, 
                   incidental, special, consequential, or punitive damages, including but not limited to loss of 
                   profits, data, or other intangible losses resulting from your use of the service.
                 </p>
@@ -328,7 +329,7 @@ export default function TermsOfUse() {
               <h2 className="text-3xl font-bold text-white mb-6">11. Indemnification</h2>
               <div className="bg-slate-800/30 border border-slate-700 rounded-xl p-6">
                 <p className="text-slate-300">
-                  You agree to indemnify and hold harmless FitnessTracker, its officers, directors, employees, 
+                  You agree to indemnify and hold harmless StrengthLens, its officers, directors, employees, 
                   and agents from any claims, damages, losses, liabilities, and expenses (including legal fees) 
                   arising from your use of the service or violation of these terms.
                 </p>
@@ -340,7 +341,7 @@ export default function TermsOfUse() {
               <div className="bg-slate-800/30 border border-slate-700 rounded-xl p-6">
                 <p className="text-slate-300">
                   These Terms of Use shall be governed by and construed in accordance with the laws of the 
-                  jurisdiction in which FitnessTracker operates, without regard to conflict of law principles.
+                  jurisdiction in which StrengthLens operates, without regard to conflict of law principles.
                 </p>
               </div>
             </section>
@@ -363,7 +364,7 @@ export default function TermsOfUse() {
                   Questions about these Terms of Use? Contact us:
                 </p>
                 <div className="space-y-2 text-slate-300">
-                  <p><strong className="text-white">Email:</strong> legal@fitnesstracker.app</p>
+                  <p><strong className="text-white">Email:</strong> legal@strengthlens.com</p>
                   <p><strong className="text-white">Support:</strong> <Link href="/support" className="text-blue-400 hover:text-blue-300">Visit our Support page</Link></p>
                 </div>
               </div>
@@ -378,8 +379,8 @@ export default function TermsOfUse() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg"></div>
-                <span className="text-lg font-bold text-white">FitnessTracker</span>
+                <Logo className="w-8 h-8" />
+                <span className="text-lg font-bold text-white">StrengthLens</span>
               </div>
               <p className="text-slate-400 text-sm">
                 AI-powered fitness intelligence for serious athletes
@@ -409,7 +410,7 @@ export default function TermsOfUse() {
             </div>
           </div>
           <div className="border-t border-slate-800 pt-8 text-center text-slate-400 text-sm">
-            <p>© 2026 FitnessTracker. All rights reserved.</p>
+            <p>© 2026 StrengthLens. All rights reserved.</p>
           </div>
         </div>
       </footer>

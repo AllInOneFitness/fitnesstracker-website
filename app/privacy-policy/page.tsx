@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Logo from '../components/Logo';
 
 export default function PrivacyPolicy() {
   return (
@@ -8,8 +9,8 @@ export default function PrivacyPolicy() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg"></div>
-              <span className="text-xl font-bold text-white">FitnessTracker</span>
+              <Logo className="w-8 h-8" />
+              <span className="text-xl font-bold text-white">StrengthLens</span>
             </Link>
             <div className="hidden md:flex space-x-8">
               <Link href="/#features" className="text-slate-300 hover:text-white transition">Features</Link>
@@ -34,7 +35,7 @@ export default function PrivacyPolicy() {
             <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-8 mb-8">
               <h2 className="text-2xl font-bold text-white mb-4">Our Commitment to Your Privacy</h2>
               <p className="text-slate-300 leading-relaxed">
-                At FitnessTracker, we take your privacy seriously. This Privacy Policy explains how we collect, 
+                At StrengthLens, we take your privacy seriously. This Privacy Policy explains how we collect, 
                 use, disclose, and safeguard your information when you use our mobile application and services. 
                 We are committed to protecting your personal data and being transparent about our practices.
               </p>
@@ -224,7 +225,7 @@ export default function PrivacyPolicy() {
               <h2 className="text-3xl font-bold text-white mb-6">7. Children's Privacy</h2>
               <div className="bg-slate-800/30 border border-slate-700 rounded-xl p-6">
                 <p className="text-slate-300">
-                  FitnessTracker is not intended for children under 13 years of age. We do not knowingly collect 
+                  StrengthLens is not intended for children under 13 years of age. We do not knowingly collect 
                   personal information from children under 13. If you believe we have collected information from 
                   a child under 13, please contact us immediately.
                 </p>
@@ -260,7 +261,7 @@ export default function PrivacyPolicy() {
                   If you have any questions about this Privacy Policy or our data practices, please contact us:
                 </p>
                 <div className="space-y-2 text-slate-300">
-                  <p><strong className="text-white">Email:</strong> privacy@fitnesstracker.app</p>
+                  <p><strong className="text-white">Email:</strong> privacy@strengthlens.com</p>
                   <p><strong className="text-white">Support:</strong> <Link href="/support" className="text-blue-400 hover:text-blue-300">Visit our Support page</Link></p>
                 </div>
               </div>
@@ -274,12 +275,12 @@ export default function PrivacyPolicy() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg"></div>
-                <span className="text-lg font-bold text-white">FitnessTracker</span>
-              </div>
+              <Link href="/" className="flex items-center space-x-2 mb-4 inline-flex">
+                <Logo className="w-8 h-8" />
+                <span className="text-lg font-bold text-white">StrengthLens</span>
+              </Link>
               <p className="text-slate-400 text-sm">
-                AI-powered fitness intelligence for serious athletes
+                Science-backed strength training intelligence
               </p>
             </div>
             <div>
@@ -306,7 +307,7 @@ export default function PrivacyPolicy() {
             </div>
           </div>
           <div className="border-t border-slate-800 pt-8 text-center text-slate-400 text-sm">
-            <p>© 2026 FitnessTracker. All rights reserved.</p>
+            <p>© 2026 StrengthLens. All rights reserved.</p>
           </div>
         </div>
       </footer>

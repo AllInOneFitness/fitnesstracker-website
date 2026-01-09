@@ -5,6 +5,7 @@ import {
   DocumentTextIcon,
   ChatBubbleLeftRightIcon
 } from '@heroicons/react/24/outline';
+import Logo from '../components/Logo';
 
 export default function Support() {
   return (
@@ -14,8 +15,8 @@ export default function Support() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg"></div>
-              <span className="text-xl font-bold text-white">FitnessTracker</span>
+              <Logo className="w-8 h-8" />
+              <span className="text-xl font-bold text-white">StrengthLens</span>
             </Link>
             <div className="hidden md:flex space-x-8">
               <Link href="/#features" className="text-slate-300 hover:text-white transition">Features</Link>
@@ -54,10 +55,10 @@ export default function Support() {
                 Get help from our support team. We typically respond within 24 hours.
               </p>
               <a 
-                href="mailto:support@fitnesstracker.app" 
+                href="mailto:support@strengthlens.com" 
                 className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium"
               >
-                support@fitnesstracker.app
+                support@strengthlens.com
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
@@ -154,14 +155,14 @@ export default function Support() {
               {/* FAQ Item 3 */}
               <details className="bg-slate-800/30 border border-slate-700 rounded-xl p-6 group">
                 <summary className="text-lg font-semibold text-white cursor-pointer list-none flex items-center justify-between">
-                  <span>Can I use FitnessTracker offline?</span>
+                  <span>Can I use StrengthLens offline?</span>
                   <svg className="w-5 h-5 text-slate-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
                 <div className="mt-4 text-slate-300 leading-relaxed">
                   <p className="mb-3">
-                    Yes! FitnessTracker is designed with an offline-first architecture:
+                    Yes! StrengthLens is designed with an offline-first architecture:
                   </p>
                   <ul className="space-y-2 ml-2">
                     <li className="flex items-start">
@@ -197,7 +198,7 @@ export default function Support() {
                 </summary>
                 <div className="mt-4 text-slate-300 leading-relaxed">
                   <p className="mb-3">
-                    FitnessTracker provides comprehensive progress tracking through the Analytics tab:
+                    StrengthLens provides comprehensive progress tracking through the Analytics tab:
                   </p>
                   <ul className="space-y-2 ml-2">
                     <li className="flex items-start">
@@ -347,7 +348,7 @@ export default function Support() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="mailto:support@fitnesstracker.app"
+                href="mailto:support@strengthlens.com"
                 className="px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl hover:from-blue-700 hover:to-purple-700 transition shadow-lg shadow-blue-500/25"
               >
                 Contact Support
@@ -368,12 +369,12 @@ export default function Support() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg"></div>
-                <span className="text-lg font-bold text-white">FitnessTracker</span>
-              </div>
+              <Link href="/" className="flex items-center space-x-2 mb-4 inline-flex">
+                <Logo className="w-8 h-8" />
+                <span className="text-lg font-bold text-white">StrengthLens</span>
+              </Link>
               <p className="text-slate-400 text-sm">
-                AI-powered fitness intelligence for serious athletes
+                Science-backed strength training intelligence
               </p>
             </div>
             <div>
@@ -400,7 +401,7 @@ export default function Support() {
             </div>
           </div>
           <div className="border-t border-slate-800 pt-8 text-center text-slate-400 text-sm">
-            <p>© 2026 FitnessTracker. All rights reserved.</p>
+            <p>© 2026 StrengthLens. All rights reserved.</p>
           </div>
         </div>
       </footer>
