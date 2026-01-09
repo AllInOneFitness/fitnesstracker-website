@@ -21,19 +21,22 @@ export default function ResetPasswordBridge() {
           return;
         }
 
+        // Store hash in sessionStorage so we can retrieve it later if needed
+        sessionStorage.setItem('reset_hash', hash);
+
         // Build the deep link URL with the hash fragment
         const appUrl = `strengthlens://auth/reset-password${hash}`;
         
         console.log('Redirecting to app:', appUrl);
         setStatus('redirecting');
 
-        // Attempt to open the app
+        // Attempt to open the app immediately
         window.location.href = appUrl;
 
         // After a short delay, show fallback UI if the app didn't open
         setTimeout(() => {
           setStatus('no-app');
-        }, 2000);
+        }, 2500);
 
       } catch (error) {
         console.error('Error in bridge redirect:', error);
@@ -46,7 +49,13 @@ export default function ResetPasswordBridge() {
   }, []);
 
   const handleManualOpen = () => {
-    const hash = window.location.hash;
+    // Try to get hash from current URL first, fallback to sessionStorage
+    let hash = window.location.hash;
+    if (!hash || hash.length <= 1) {
+      hash = sessionStorage.getItem('reset_hash') || '';
+    }
+    
+    console.log('Manual open with hash:', hash);
     const appUrl = `strengthlens://auth/reset-password${hash}`;
     window.location.href = appUrl;
   };
