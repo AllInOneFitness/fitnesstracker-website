@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "96b58c59-b85f-4433-ab61-4c070ecad1b4"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.moodverse.fitnesstrackersite",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
+  }
+}
