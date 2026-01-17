@@ -221,9 +221,9 @@ export default function PrivacyPolicy() {
               <h2 className="text-3xl font-bold text-white mb-6">7. Children's Privacy</h2>
               <div className="bg-slate-800/30 border border-slate-700 rounded-xl p-6">
                 <p className="text-slate-300">
-                  StrengthLens is not intended for children under 9 years of age. We do not knowingly collect 
-                  personal information from children under 9. If you believe we have collected information from 
-                  a child under 9, please contact us immediately.
+                  StrengthLens is not intended for children under 13 years of age. We do not knowingly collect 
+                  personal information from children under 13. If you believe we have collected information from 
+                  a child under 13, please contact us immediately.
                 </p>
               </div>
             </section>
