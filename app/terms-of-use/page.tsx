@@ -406,6 +406,7 @@ export default function TermsOfUse() {
               <ul className="space-y-2 text-sm">
                 <li><Link href="/privacy-policy" className="text-slate-400 hover:text-white transition">Privacy Policy</Link></li>
                 <li><Link href="/terms-of-use" className="text-white font-medium">Terms of Use</Link></li>
+                <li><Link href="/delete-account" className="text-slate-400 hover:text-white transition">Delete Account</Link></li>
               </ul>
             </div>
           </div>
