@@ -63,10 +63,6 @@ export default function PrivacyPolicy() {
                     <span className="text-blue-400 mr-2">•</span>
                     <span><strong>Progress Data:</strong> Body measurements, progress photos (stored locally on your device)</span>
                   </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-400 mr-2">•</span>
-                    <span><strong>Nutrition Data:</strong> Food logs, calorie intake, macronutrient tracking (future feature)</span>
-                  </li>
                 </ul>
               </div>
 
@@ -225,9 +221,9 @@ export default function PrivacyPolicy() {
               <h2 className="text-3xl font-bold text-white mb-6">7. Children's Privacy</h2>
               <div className="bg-slate-800/30 border border-slate-700 rounded-xl p-6">
                 <p className="text-slate-300">
-                  StrengthLens is not intended for children under 13 years of age. We do not knowingly collect 
-                  personal information from children under 13. If you believe we have collected information from 
-                  a child under 13, please contact us immediately.
+                  StrengthLens is not intended for children under 9 years of age. We do not knowingly collect 
+                  personal information from children under 9. If you believe we have collected information from 
+                  a child under 9, please contact us immediately.
                 </p>
               </div>
             </section>
@@ -303,6 +299,7 @@ export default function PrivacyPolicy() {
               <ul className="space-y-2 text-sm">
                 <li><Link href="/privacy-policy" className="text-white font-medium">Privacy Policy</Link></li>
                 <li><Link href="/terms-of-use" className="text-slate-400 hover:text-white transition">Terms of Use</Link></li>
+                <li><Link href="/delete-account" className="text-slate-400 hover:text-white transition">Delete Account</Link></li>
               </ul>
             </div>
           </div>
