@@ -28,9 +28,12 @@ export default function Home() {
               <Link href="/support" className="text-slate-300 hover:text-white transition">Support</Link>
             </div>
             <div className="flex space-x-4">
-              <button className="px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg hover:from-blue-700 hover:to-purple-700 transition">
+              <Link 
+                href="/download"
+                className="px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg hover:from-blue-700 hover:to-purple-700 transition"
+              >
                 Download App
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -58,12 +61,12 @@ export default function Home() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl hover:from-blue-700 hover:to-purple-700 transition shadow-lg shadow-blue-500/25">
+            <Link href="/download" className="px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl hover:from-blue-700 hover:to-purple-700 transition shadow-lg shadow-blue-500/25">
               Download for iOS
-            </button>
-            <button className="px-8 py-4 text-lg font-semibold text-white bg-slate-800 rounded-xl hover:bg-slate-700 transition border border-slate-700">
+            </Link>
+            <Link href="/download" className="px-8 py-4 text-lg font-semibold text-white bg-slate-800 rounded-xl hover:bg-slate-700 transition border border-slate-700">
               Download for Android
-            </button>
+            </Link>
           </div>
 
           {/* Stats */}
@@ -535,9 +538,9 @@ export default function Home() {
               Join thousands of athletes using StrengthLens to reach their goals faster
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl hover:from-blue-700 hover:to-purple-700 transition shadow-lg shadow-blue-500/25">
+              <Link href="/download" className="px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl hover:from-blue-700 hover:to-purple-700 transition shadow-lg shadow-blue-500/25">
                 Download Now
-              </button>
+              </Link>
               <Link href="/support" className="px-8 py-4 text-lg font-semibold text-white bg-slate-800 rounded-xl hover:bg-slate-700 transition border border-slate-700">
                 Learn More
               </Link>
