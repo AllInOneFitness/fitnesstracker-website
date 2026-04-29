@@ -88,7 +88,7 @@ export default function DownloadPage() {
             </div>
 
             {/* Android Card */}
-            <div className="bg-slate-800/30 border border-slate-700/50 rounded-2xl p-8 relative overflow-hidden">
+            <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-8 hover:border-green-500/50 transition">
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center space-x-3">
                   <div className="w-12 h-12 bg-green-500/10 rounded-xl flex items-center justify-center">
@@ -101,25 +101,21 @@ export default function DownloadPage() {
                     <p className="text-sm text-slate-400">Google Play</p>
                   </div>
                 </div>
-                <ClockIcon className="w-6 h-6 text-yellow-400" />
+                <CheckCircleIcon className="w-6 h-6 text-green-400" />
               </div>
               
               <p className="text-slate-400 mb-6 leading-relaxed">
-                Coming soon! Expected in the next few days, pending Google Play Store review.
+                Available now on Google Play. Works on Android devices running Android 5.0 or later.
               </p>
               
-              <button
-                disabled
-                className="block w-full px-6 py-4 text-center text-lg font-semibold text-slate-500 bg-slate-700/50 rounded-xl cursor-not-allowed"
+              <a
+                href="https://play.google.com/store/apps/details?id=com.strengthlens.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full px-6 py-4 text-center text-lg font-semibold text-white bg-gradient-to-r from-green-600 to-green-700 rounded-xl hover:from-green-700 hover:to-green-800 transition shadow-lg shadow-green-500/25"
               >
-                Coming Soon
-              </button>
-              
-              <div className="mt-4 text-center">
-                <p className="text-sm text-slate-500">
-                  We'll update this page as soon as it's available
-                </p>
-              </div>
+                Download on Google Play
+              </a>
             </div>
           </div>
 
