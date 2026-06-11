@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { DevicePhoneMobileIcon, CheckCircleIcon, ClockIcon } from '@heroicons/react/24/outline';
+import { DevicePhoneMobileIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
 import Logo from '../components/Logo';
 
 export default function DownloadPage() {
