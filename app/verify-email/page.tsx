@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import './styles.css';
 
 export default function VerifyEmailBridge() {
@@ -113,9 +114,9 @@ export default function VerifyEmailBridge() {
           <>
             <h1 style={styles.title}>Something Went Wrong</h1>
             <p style={styles.description}>{errorMessage}</p>
-            <a href="/" style={styles.button}>
+            <Link href="/" style={styles.button}>
               Go to Home
-            </a>
+            </Link>
           </>
         )}
 
@@ -131,7 +132,7 @@ export default function VerifyEmailBridge() {
             </button>
 
             <div style={styles.divider}>
-              <span style={styles.dividerText}>Don't have the app?</span>
+              <span style={styles.dividerText}>Don&apos;t have the app?</span>
             </div>
 
             <div style={styles.storeButtons}>

@@ -29,7 +29,7 @@ export default function DeleteAccount() {
       <div className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-white mb-4">Delete Your Account</h1>
-          <p className="text-slate-400 mb-12">We're sorry to see you go. Here's how to delete your StrengthLens account and what happens to your data.</p>
+          <p className="text-slate-400 mb-12">We&apos;re sorry to see you go. Here&apos;s how to delete your StrengthLens account and what happens to your data.</p>
 
           <div className="prose prose-invert prose-slate max-w-none">
             {/* Important Notice */}
@@ -65,7 +65,7 @@ export default function DeleteAccount() {
               <div className="bg-slate-800/30 border border-slate-700 rounded-xl p-6 mb-6">
                 <h3 className="text-xl font-semibold text-white mb-4">Option 1: In-App Deletion (Coming Soon)</h3>
                 <p className="text-slate-300 mb-4">
-                  We're currently developing an in-app account deletion feature. Once available, you'll be able to delete your account directly from the app:
+                  We&apos;re currently developing an in-app account deletion feature. Once available, you&apos;ll be able to delete your account directly from the app:
                 </p>
                 <ol className="space-y-3 text-slate-300 list-decimal list-inside">
                   <li>Open the StrengthLens app</li>
@@ -95,7 +95,7 @@ export default function DeleteAccount() {
                   <ul className="space-y-2 text-slate-300">
                     <li className="flex items-start">
                       <span className="text-blue-400 mr-2">1.</span>
-                      <span><strong className="text-white">Subject line:</strong> "Account Deletion Request"</span>
+                      <span><strong className="text-white">Subject line:</strong> &quot;Account Deletion Request&quot;</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-400 mr-2">2.</span>
@@ -103,7 +103,7 @@ export default function DeleteAccount() {
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-400 mr-2">3.</span>
-                      <span><strong className="text-white">Confirmation statement:</strong> "I confirm that I want to permanently delete my StrengthLens account and all associated data."</span>
+                      <span><strong className="text-white">Confirmation statement:</strong> &quot;I confirm that I want to permanently delete my StrengthLens account and all associated data.&quot;</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-400 mr-2">4.</span>
@@ -113,7 +113,7 @@ export default function DeleteAccount() {
                 </div>
                 <div className="mt-4 p-4 bg-green-500/10 border border-green-500/20 rounded-lg">
                   <p className="text-slate-300 text-sm">
-                    <strong className="text-green-400">Response time:</strong> We typically process deletion requests within 2-3 business days. You'll receive a confirmation email once your account has been deleted.
+                    <strong className="text-green-400">Response time:</strong> We typically process deletion requests within 2-3 business days. You&apos;ll receive a confirmation email once your account has been deleted.
                   </p>
                 </div>
               </div>
@@ -236,7 +236,7 @@ export default function DeleteAccount() {
                     <ul className="space-y-2 text-slate-300 text-sm">
                       <li className="flex items-start">
                         <span className="text-green-400 mr-2">•</span>
-                        <span><strong>Aggregated analytics:</strong> Anonymized usage statistics that cannot be linked back to you (e.g., "users completed 10,000 workouts this month")</span>
+                        <span><strong>Aggregated analytics:</strong> Anonymized usage statistics that cannot be linked back to you (e.g., &quot;users completed 10,000 workouts this month&quot;)</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-400 mr-2">•</span>
@@ -289,7 +289,7 @@ export default function DeleteAccount() {
               <h2 className="text-3xl font-bold text-white mb-6">Need Help?</h2>
               <div className="bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-xl p-8">
                 <p className="text-slate-300 mb-6">
-                  If you have questions about account deletion or need assistance, we're here to help:
+                  If you have questions about account deletion or need assistance, we&apos;re here to help:
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -323,7 +323,7 @@ export default function DeleteAccount() {
             {/* Final Note */}
             <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-8 text-center">
               <p className="text-slate-300 text-lg mb-4">
-                We're sorry to see you go, but we respect your decision.
+                We&apos;re sorry to see you go, but we respect your decision.
               </p>
               <p className="text-slate-400">
                 Thank you for being part of the StrengthLens community. We hope to see you again in the future! 💪

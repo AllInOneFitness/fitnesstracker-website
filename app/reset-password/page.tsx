@@ -116,7 +116,7 @@ export default function ResetPasswordBridge() {
             </button>
 
             <div style={styles.divider}>
-              <span style={styles.dividerText}>Don't have the app?</span>
+              <span style={styles.dividerText}>Don&apos;t have the app?</span>
             </div>
 
             <div style={styles.storeButtons}>

@@ -103,8 +103,8 @@ export default function Support() {
                   <p className="mb-3">To create a custom workout program:</p>
                   <ol className="list-decimal list-inside space-y-2 ml-2">
                     <li>Go to the Programs tab</li>
-                    <li>Tap the "+" button in the top right</li>
-                    <li>Choose "Create Custom Program"</li>
+                    <li>Tap the &quot;+&quot; button in the top right</li>
+                    <li>Choose &quot;Create Custom Program&quot;</li>
                     <li>Add exercises, sets, reps, and rest periods</li>
                     <li>Save your program and start tracking!</li>
                   </ol>
@@ -131,7 +131,7 @@ export default function Support() {
                   <ul className="space-y-2 ml-2">
                     <li className="flex items-start">
                       <span className="text-blue-400 mr-2">•</span>
-                      <span><strong>Progressive Overload:</strong> Suggests weight increases when you're ready</span>
+                      <span><strong>Progressive Overload:</strong> Suggests weight increases when you&apos;re ready</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-400 mr-2">•</span>
@@ -179,7 +179,7 @@ export default function Support() {
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-400 mr-2">✓</span>
-                      <span>Data automatically syncs when you're back online</span>
+                      <span>Data automatically syncs when you&apos;re back online</span>
                     </li>
                   </ul>
                   <p className="mt-3 text-sm text-slate-400">
@@ -228,7 +228,7 @@ export default function Support() {
               {/* FAQ Item 5 */}
               <details className="bg-slate-800/30 border border-slate-700 rounded-xl p-6 group">
                 <summary className="text-lg font-semibold text-white cursor-pointer list-none flex items-center justify-between">
-                  <span>What's the difference between Free, Plus, and Pro tiers?</span>
+                  <span>What&apos;s the difference between Free, Plus, and Pro tiers?</span>
                   <svg className="w-5 h-5 text-slate-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
@@ -344,7 +344,7 @@ export default function Support() {
             <h2 className="text-3xl font-bold text-white mb-4">Need More Help?</h2>
             <p className="text-slate-300 mb-8 max-w-2xl mx-auto">
               Check out our comprehensive documentation or reach out to our support team. 
-              We're here to help you succeed on your fitness journey.
+              We&apos;re here to help you succeed on your fitness journey.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 

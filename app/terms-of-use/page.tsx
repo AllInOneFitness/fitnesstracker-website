@@ -115,7 +115,7 @@ export default function TermsOfUse() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-400 mr-2">✗</span>
-                    <span>Attempt to gain unauthorized access to our systems or other users' accounts</span>
+                    <span>Attempt to gain unauthorized access to our systems or other users&apos; accounts</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-400 mr-2">✗</span>
@@ -291,9 +291,9 @@ export default function TermsOfUse() {
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-white mb-6">10. Disclaimers and Limitations of Liability</h2>
               <div className="bg-slate-800/30 border border-slate-700 rounded-xl p-6 mb-4">
-                <h3 className="text-xl font-semibold text-white mb-3">Service Provided "AS IS"</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">Service Provided &quot;AS IS&quot;</h3>
                 <p className="text-slate-300 mb-4">
-                  StrengthLens is provided "as is" without warranties of any kind, express or implied. 
+                  StrengthLens is provided &quot;as is&quot; without warranties of any kind, express or implied.
                   We do not guarantee:
                 </p>
                 <ul className="space-y-2 text-slate-300">

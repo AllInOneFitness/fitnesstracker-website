@@ -144,7 +144,7 @@ export default function Home() {
               <h3 className="text-xl font-bold text-white mb-3">Offline-First Design</h3>
               <p className="text-slate-400 leading-relaxed">
                 Never lose data. Works perfectly offline and syncs seamlessly 
-                when you're back online. Your data is always safe.
+                when you&apos;re back online. Your data is always safe.
               </p>
             </div>
 
@@ -232,7 +232,7 @@ export default function Home() {
               </h3>
               <p className="text-lg text-slate-400 mb-6 leading-relaxed">
                 Visualize your 1RM progression over time with detailed charts. See exactly 
-                how much stronger you're getting with every workout session.
+                how much stronger you&apos;re getting with every workout session.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start space-x-3">
@@ -419,7 +419,7 @@ export default function Home() {
                 <span className="text-orange-400">Distribution</span>
               </h3>
               <p className="text-lg text-slate-400 mb-6 leading-relaxed">
-                Optimize your training intensity with RPE zone breakdown. Ensure you're training 
+                Optimize your training intensity with RPE zone breakdown. Ensure you&apos;re training
                 in the right zones for your goals with detailed intensity analysis.
               </p>
               <ul className="space-y-4">

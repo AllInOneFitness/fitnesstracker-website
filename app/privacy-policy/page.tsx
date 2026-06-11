@@ -218,7 +218,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-white mb-6">7. Children's Privacy</h2>
+              <h2 className="text-3xl font-bold text-white mb-6">7. Children&apos;s Privacy</h2>
               <div className="bg-slate-800/30 border border-slate-700 rounded-xl p-6">
                 <p className="text-slate-300">
                   StrengthLens is not intended for children under 13 years of age. We do not knowingly collect 
@@ -244,7 +244,7 @@ export default function PrivacyPolicy() {
               <div className="bg-slate-800/30 border border-slate-700 rounded-xl p-6">
                 <p className="text-slate-300">
                   We may update this Privacy Policy from time to time. We will notify you of any material changes 
-                  by posting the new Privacy Policy on this page and updating the "Last updated" date. We encourage 
+                  by posting the new Privacy Policy on this page and updating the &quot;Last updated&quot; date. We encourage
                   you to review this Privacy Policy periodically.
                 </p>
               </div>
