@@ -121,7 +121,7 @@ export default function ResetPasswordBridge() {
 
             <div style={styles.storeButtons}>
               <a
-                href="https://apps.apple.com/app/your-app-id"
+                href="https://apps.apple.com/us/app/strengthlens/id6757731105"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={styles.storeButton}
@@ -133,7 +133,7 @@ export default function ResetPasswordBridge() {
               </a>
 
               <a
-                href="https://play.google.com/store/apps/details?id=com.allinonefitness.fitnesstracker"
+                href="https://play.google.com/store/apps/details?id=com.strengthlens.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={styles.storeButton}

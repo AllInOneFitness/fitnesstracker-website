@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "SD9QUBL394.com.allinonefitness.fitnesstracker",
+        "appID": "SD9QUBL394.com.strengthlens.app",
         "paths": [
           "/reset-password/*",
           "/verify-email/*",
@@ -14,7 +14,7 @@
   },
   "webcredentials": {
     "apps": [
-      "SD9QUBL394.com.allinonefitness.fitnesstracker"
+      "SD9QUBL394.com.strengthlens.app"
     ]
   }
 }
